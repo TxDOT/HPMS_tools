@@ -391,7 +391,6 @@ def get_curvy(linework, id_fieldname):
 
 
 if __name__ == '__main__':
-    get_curvy("C:\\_HPMS\\2015\\____HPMS_Curves2014\\Samples_2014.gdb\\Samples_2013_100recs_tsms", "OBJECTID")
-    # features_path = raw_input("Features path :")
-    # id_field = raw_input("ID field: ")
-    # get_curvy(features_path, id_field)
+    features_path = raw_input("Features path :")
+    id_field = raw_input("ID field: ")
+    get_curvy(features_path, id_field)
