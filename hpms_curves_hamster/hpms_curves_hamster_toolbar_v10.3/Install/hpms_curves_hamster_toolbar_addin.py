@@ -493,9 +493,9 @@ class Info(object):
         self.checked = False
 
     def onClick(self):
-        pythonaddins.MessageBox("Curves hamster was developed to satisfy HPMS reporting requirements."
-                                "The input features must by either m enabled Shapefile or ESRI Feature Class."
-                                "The outputs will be saved to the same directory as the input features."
-                                "The output files will be a copy of the processed features, a csv of the raw results,"
+        pythonaddins.MessageBox("Curves hamster was developed to satisfy HPMS reporting requirements. "
+                                "The input features must be either m enabled Shapefile or ESRI Feature Class. "
+                                "The outputs will be saved to the same directory as the input features. "
+                                "The output files will be a copy of the processed features, a csv of the raw results, "
                                 "and a final cleaned (no gaps) csv. Please choose to enjoy.",
                                 "Curves Hamster Info")
